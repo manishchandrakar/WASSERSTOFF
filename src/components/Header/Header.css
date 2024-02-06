@@ -1,0 +1,155 @@
+/* Header.css */
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color : white;
+  color: #333;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.sections {
+  display: flex;
+  gap: 20px;
+}
+
+.sections a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.sections a:hover {
+  color: #57a0d3;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #e9e4e4;
+}
+
+.search-bar button {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+}
+
+.login-icon,
+.filter-icon {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.sections a.active-link {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.logo-text {
+  margin-left: 5px; /* Adjust the margin as needed */
+  /* text-decoration: none; Remove underline */
+  text-transform: uppercase;
+  font-family: 'Cambria', sans-serif; 
+  
+  color: #000; /* Set the color to black */
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #333; /* Change color as needed */
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  background-color: #ddd; /* Change background color as needed */
+}
+
+.nav-link:visited {
+  color: purple; /* Change color for visited links as needed */
+}
+
+
+
+.nav-link {
+  text-decoration: none;
+  color: #000; /* Change color as needed */
+  margin-right: 20px; /* Adjust spacing between links */
+}
+
+.nav-link.active {
+  color: #007bff; /* Change active link color */
+  font-weight: bold; /* Optionally, make the active link bold */
+}
+
+.logo-text {
+  margin-left: 10px; /* Adjust spacing between logo image and text */
+}
+
+.search-bar {
+  margin-right: 20px; /* Adjust spacing between search bar and navigation links */
+}
+
+.user-actions {
+  margin-left: auto; /* Align user actions to the right */
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .dashboard-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sections {
+    margin-top: 15px;
+  }
+
+  .search-bar {
+    margin-top: 15px;
+  }
+
+  .user-actions {
+    margin-top: 15px;
+  }
+}

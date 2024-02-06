@@ -1,0 +1,14 @@
+{
+  "data": {
+    "totalEarning": 98320300,
+    "sales": 76541106,
+    "purchase": 10547980,
+    "usersByCountry": {
+      "Chicago": 98320300,
+      "Berlin": 76541106,
+      "Giza": 10547980,
+      "Manaus": 12320300,
+      "Queensland": 6097321
+    }
+  }
+}
